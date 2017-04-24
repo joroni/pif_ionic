@@ -1,0 +1,367 @@
+/* vietnamese */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(fonts/montserrat/v10/SKK6Nusyv8QPNMtI4j9J2wsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(fonts/montserrat/v10/gFXtEMCp1m_YzxsBpKl68gsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+
+/* latin */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(fonts/montserrat/v10/zhcz-_WihjSQC0oHJ9TCYAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+button {
+    border-width: 0 !important;
+}
+
+.background-lite {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+    background: #aaaaaa;
+    /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #eeeeee 30%, #cccccc 70%);
+    /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #eeeeee 30%, #cccccc 70%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #eeeeee 30%, #cccccc 70%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc', GradientType=4);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+
+/*
+.bar.bar-positive {
+    border-color: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    color: red !important;
+}
+*/
+
+.left-sidebar .brand-logo img {
+    max-height: 30px;
+    margin-top: 5px;
+}
+
+.left-sidebar .brand-title {
+    max-height: 30px;
+    top: -5px;
+}
+
+.bar.bar-positive {
+    /*  border-color: #eee !important;
+    background-color: #eee !important;
+    background-image: none !important;*/
+    color: red !important;
+}
+
+.bar-positive .button {
+    border-color: transparent !important;
+    background-color: transparent !important;
+    color: red !important;
+}
+
+.component {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+.csstransforms .cn-wrapper li {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: visible;
+    margin-top: -1.3em;
+    margin-left: -10em;
+    width: 10em;
+    height: 10em;
+    font-size: 1.5em;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-transform: rotate(76deg) skew(60deg);
+    -moz-transform: rotate(76deg) skew(60deg);
+    -ms-transform: rotate(76deg) skew(60deg);
+    transform: rotate(76deg) skew(60deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    pointer-events: none;
+}
+
+.csstransforms .cn-wrapper li a {
+    position: absolute;
+    right: -7.25em;
+    bottom: -7.25em;
+    overflow: visible !important;
+    display: block;
+    width: 14.5em;
+    height: 14.5em;
+    background: none !important;
+    border-radius: 50%;
+    background: -webkit-radial-gradient(transparent 35%, #429a67 35%);
+    background: -moz-radial-gradient(transparent 35%, #429a67 35%);
+    background: radial-gradient(transparent 35%, #429a67 35%);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 2;
+    -webkit-transform: skew(-60deg) rotate(-75deg) scale(1);
+    -moz-transform: skew(-60deg) rotate(-75deg) scale(1);
+    -ms-transform: skew(-60deg) rotate(-75deg) scale(1);
+    transform: skew(-60deg) rotate(-75deg) scale(1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    pointer-events: auto;
+}
+
+
+/*
+.csstransforms .cn-wrapper li a {
+    position: absolute;
+    right: -7.25em;
+    bottom: -7.25em;
+    display: block;
+    width: 14.5em;
+    height: 14.5em;
+    border-radius: 50%;
+    background: #eee !important;
+    background: -webkit-radial-gradient(transparent 35%, #429a67 35%);
+    background: -moz-radial-gradient(transparent 35%, #429a67 35%);
+    background: radial-gradient(transparent 35%, #429a67 35%);
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 2;
+    -webkit-transform: skew(-60deg) rotate(-75deg) scale(1);
+    -moz-transform: skew(-60deg) rotate(-75deg) scale(1);
+    -ms-transform: skew(-60deg) rotate(-75deg) scale(1);
+    transform: skew(-60deg) rotate(-75deg) scale(1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    pointer-events: auto;
+}
+*/
+
+.csstransforms .cn-wrapper {
+    overflow: visible !important;
+}
+
+.csstransforms .cn-wrapper li a i {
+    width: 60px !important;
+    height: 60px !important;
+    padding: 0 10px;
+    background: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: 1.7em;
+    left: 90px;
+    overflow: visible !important;
+    z-index: 2000;
+    top: -40px;
+    position: absolute;
+}
+
+
+/*
+.csstransforms .cn-wrapper li a i {
+    width: 70px !important;
+    height: 70px !important;
+    padding: 10px !important;
+    background: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: 2em;
+}
+
+
+
+.csstransforms .cn-wrapper li a i {
+    width: 70px !important;
+    height: 70px !important;
+    padding: 10px !important;
+    color: red;
+    border: 0px solid red;
+    border-radius: 50%;
+    font-size: 2em;
+}*/
+
+iframe#animated {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -10;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate3d(-50%, -50%, 0);
+}
+
+.ng-hide.ng-hide-animate {
+    display: none !important;
+}
+
+.cn-button i {
+    font-size: 2em;
+}
+
+.cn-button {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: 11;
+    margin-top: -2.25em;
+    margin-left: -2.25em;
+    padding-top: 0em;
+    width: 4.5em;
+    height: 4.5em;
+    border: none;
+    border-radius: 50%;
+    background: none;
+    background-color: #333 !important;
+    color: #fff !important;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+}
+
+.tour {
+    /*background-color: #ffefd6;*/
+    background: url(img/white_2.png);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    text-align: center;
+    position: absolute;
+    z-index: 100;
+}
+
+.logo-tour {
+    margin: 30% auto;
+    width: 100px;
+    height: auto;
+}
+
+.tour-img {
+    margin: 10% auto;
+    width: 245px;
+    position: absolute;
+    height: auto;
+    bottom: -40px;
+    text-align: center;
+    left: 15%;
+    right: 15%;
+}
+
+.logo-tour img,
+.tour img {
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 70%;
+}
+
+.tour p {
+    color: #333;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.bar.bar-positive .title {
+    color: red !important;
+}
+
+.tour .slider {
+    height: 100%;
+    padding-top: 80px;
+}
+
+.comments .button-block {
+    margin: 0;
+}
+
+.room-service ion-header-bar {
+    margin-top: 44px;
+}
+
+.room-service ion-content {
+    top: 88px;
+}
+
+.item.button-block {
+    margin-top: 0;
+    border-radius: 0;
+}
+
+ion-content.home .bar.bar-positive,
+.bar.bar-positive {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.component {
+    position: relative;
+    margin-bottom: 3em;
+    height: 15em;
+    background: rgba(0, 0, 0, 0.05);
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+.component>h2 {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12em;
+    opacity: 0.1;
+    cursor: default;
+}
+
+#coca-cola {
+    display: block;
+    position: relative;
+    top: 33%;
+    width: 100%;
+    height: 250px;
+    /*( background: url(icons/barcode_product.svg);*/
+    background: url(../img/coke-bottle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 55%;
+    z-index: 1;
+}
