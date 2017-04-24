@@ -1,10 +1,17 @@
 angular.module('App').controller('HomeCtrl', function($scope, $http, $timeout, $ionicModal, $ionicLoading, $ionicPopup, EventsService) {
 
 
+
+
+
+
+
     var comment = {
         message: '',
         rating: 5
     };
+
+
     $scope.comment = angular.copy(comment);
 
     $scope.sendComments = function() {
@@ -68,6 +75,8 @@ angular.module('App').controller('HomeCtrl', function($scope, $http, $timeout, $
 
         function closeWrapper() {
             classie.remove(wrapper, 'opened-nav');
+
+
         }
 
     })();

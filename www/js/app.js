@@ -103,6 +103,9 @@ angular.module('App', ['ionic', 'firebase', 'angularCircularNavigation', 'angula
     return service;
 })
 
+
+
+
 .controller('NavbarCtrl', function($scope, $ionicSideMenuDelegate) {
 
     $scope.openMenu = function() {
